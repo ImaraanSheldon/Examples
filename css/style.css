@@ -1,0 +1,25 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.imgCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    background-color:#300319; 
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
